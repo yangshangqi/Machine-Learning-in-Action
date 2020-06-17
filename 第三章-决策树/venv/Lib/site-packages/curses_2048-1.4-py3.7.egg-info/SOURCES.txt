@@ -1,0 +1,15 @@
+2048.py
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+curses_2048.egg-info/PKG-INFO
+curses_2048.egg-info/SOURCES.txt
+curses_2048.egg-info/dependency_links.txt
+curses_2048.egg-info/entry_points.txt
+curses_2048.egg-info/not-zip-safe
+curses_2048.egg-info/top_level.txt

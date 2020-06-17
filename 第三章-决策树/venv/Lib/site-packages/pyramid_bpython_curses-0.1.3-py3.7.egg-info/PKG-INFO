@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: pyramid-bpython-curses
+Version: 0.1.3
+Summary: bpython bindings for Pyramid pshell in a curses variant
+Home-page: https://github.com/iivmok/pyramid_bpython_curses
+Author: Iivari Mokelainen
+Author-email: iivmok@gmail.com
+License: MIT
+Description: pyramid_bpython_curses
+        ======================
+        
+        `bpython <http://bpython-interpreter.org/>`_ bindings for
+        `Pyramid <http://docs.pylonsproject.org/en/latest/docs/pyramid.html>`_ in a curses variant (for **Windows**).
+        
+        Installation
+        ------------
+        
+        * Install `curses for windows <http://www.lfd.uci.edu/~gohlke/pythonlibs/#curses>`_
+        
+        ::
+        
+          $ pip install pyramid_bpython_curses
+        
+        Usage
+        -----
+        
+        Ensure the shell is available::
+        
+          $ pshell --list-shells
+          Available shells:
+            bpython_curses
+            python
+        
+        The shell should be auto-selected when running ``pshell``::
+        
+          $ pshell development.ini
+        
+        However, if there are multiple shells you can also be explicit::
+        
+          $ pshell -p bpython_curses development.ini
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Pyramid
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI

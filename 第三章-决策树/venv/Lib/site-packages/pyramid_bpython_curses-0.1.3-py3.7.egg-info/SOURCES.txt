@@ -1,0 +1,11 @@
+README.rst
+pyramid_bpython_curses.py
+setup.cfg
+setup.py
+pyramid_bpython_curses.egg-info/PKG-INFO
+pyramid_bpython_curses.egg-info/SOURCES.txt
+pyramid_bpython_curses.egg-info/dependency_links.txt
+pyramid_bpython_curses.egg-info/entry_points.txt
+pyramid_bpython_curses.egg-info/not-zip-safe
+pyramid_bpython_curses.egg-info/requires.txt
+pyramid_bpython_curses.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[pyramid.pshell_runner]
+bpython_curses = pyramid_bpython_curses:bpython_curses_shell_runner
+
